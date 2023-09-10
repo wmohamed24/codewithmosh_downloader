@@ -1,0 +1,5 @@
+courses/
+chromeDriver.app
+.vscode
+__pycache__
+.DS_Store
