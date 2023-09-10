@@ -4,3 +4,4 @@ chromeDriver.app
 __pycache__
 .DS_Store
 ChromeSession
+ChromeDriver
