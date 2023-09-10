@@ -2,6 +2,7 @@ from getCoursesClass import getCoursesClass
 import os
 from pathlib import Path
 
+
 def get_downloads_path():
     platform_system = os.name
     home = Path.home()
@@ -21,9 +22,13 @@ def main():
         os.mkdir(course_path)
 
     get_courses: getCoursesClass = getCoursesClass("127.0.0.1:9222", download_path, course_path)
-    course_link = "https://members.codewithmosh.com/courses/293204/lectures/4509750"
-    check_link = "https://members.codewithmosh.com/courses/293204/lectures"
-    get_courses.get_course_all("NodeJS", course_link, check_link)
+    
+    # course_link = "https://members.codewithmosh.com/courses/1120640/lectures/24393589"
+    # check_link = "https://members.codewithmosh.com/courses/1120640/lectures/"
+    # get_courses.get_course_all("Git", course_link, check_link)
+
+    get_courses.login()
+    
 
 
 if __name__ == "__main__":
