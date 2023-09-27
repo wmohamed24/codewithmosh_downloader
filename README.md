@@ -24,6 +24,8 @@ cd codewithmosh_downloader
 
 # Run the script (additional instructions on setup and usage to be added)
 
+```
+
 ## Contributing
 
 Contributions are welcome! If you have a feature request, bug report, or a new enhancement idea, please feel free to open an issue or submit a pull request.
